@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Andrii Kokoko</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#map">Find Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div class="my-photo">
+            <img src="img/my_photo.jpg" alt="Andrii Kokotko">
+            <h1>Andrii Kokotko</h1>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="flex">
+                <img src="img/my_photo.jpg" alt="">
+                <div class="line"></div>
+                <div class="about-me">
+                    <p>
+                        My name is Andrii Kokotko. I'm a student. I'm studing at Polytechnic National University at Management.
+                    </p>
+                    <p>
+                        At the last time I was inrested at web-development, so I decided to focus more on it. I hope in the future I'll become a  qualified specialist in this area.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="flexConteiner">
+                <div class="item flex-item1">
+                    <img src="img/html.jpeg" alt="">
+                    <div class="content">
+                        <h3>HTML5</h3>
+                        <p>I started to learn web development from learning HTML5. Now I know the main tags and can write a basic structure for a web-site.</p>
+                    </div>
+                </div>
+                <div class="item flex-item2">
+                    <img src="img/css.png" alt="">
+                    <div class="content">
+                        <h3>CSS3</h3>
+                        <p>Now I know different types of CSS selectors and the most common CSS properties. Later I'll learn famous layouts like FlexBox and CSS Grid.</p>
+                    </div>
+                </div>
+                <div class="item flex-item3">
+                    <img src="img/js.jpeg" alt="">
+                    <div class="content">
+                        <h3>JavaScript</h3>
+                        <p>I know the basic contsepts of language, can use different API's, objects and methods. </p>
+                    </div>
+                </div>
+                <div class="item flex-item4">
+                    <img src="img\bootstrap-stack.png" alt="">
+                    <div class="content">
+                        <h3>Bootsrap</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta distinctio error dolor a voluptatem quos dolores quibusdam aperiam assumenda asperiores!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="map">
+            <h2>Find Me</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1531.4047609418128!2d24.051061449028232!3d49.79536264222288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae872fcb09181%3A0x813a6dbb790705ba!2z0LLRg9C70LjRhtGPINCT0L3QsNGC0LAg0KXQvtGC0LrQtdCy0LjRh9CwLCA2LCDQm9GM0LLRltCyLCDQm9GM0LLRltCy0YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1suk!2sua!4v1512316492558" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="feedback">
+                <label>Your Name: <input type="text" id="name"></label>
+                <label>Email Address: <input type="text" id="email"></label>
+                <textarea name="textarea" id="message" placeholder="Your message..."></textarea>
+                <input type="submit" value="Send a message">
+            </form>
+            <dialog id="thank-dialog">
+                <p>Thank you for contacting us!</p>
+            </dialog>
+            <dialog id="error-dialog">
+                <p>Sorry, an error has occured!</p>
+            </dialog>
+        </section>
+        <aside id="social">
+            <ul>
+                <li><a href="#" title="Facebook"><img src="img/facebook.png" alt="Facebook"></a></li>
+                <li><a href="#" title="Google+"><img src="img/google+.ico" alt="Google+"></a></li>
+                <li><a href="#" title="Telegram"><img src="img/telegram.png" alt="Telegram"></a></li>
+                <li><a href="#" title="GitHub"><img src="img/social-github.svg" alt="GitHub"></a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>© 2017, <a href="index.html">Andrii Kokotko</a>, All rights reserved.</footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
